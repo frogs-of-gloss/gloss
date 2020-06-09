@@ -20,7 +20,7 @@ h1, h2, nav, p {
   margin-bottom: 20px;
 }
 /* spacing small */
-nav a:not(:last-child) {
+nav a:not(:last-child), img {
   margin-bottom: 10px;
 }
 
@@ -34,6 +34,9 @@ h1 a, h1 a:visited {
 
 h2, nav + p {
   margin-top: 40px;
+}
+img + h2 {
+  margin-top: 0;
 }
 
 h2 span {
@@ -63,6 +66,10 @@ a:visited {
 
 .gloss {
   margin-right: -3px;
+}
+
+img {
+  max-width: 250px;
 }
 
 
