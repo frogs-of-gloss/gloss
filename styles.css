@@ -59,6 +59,9 @@ p {
 .ital, a.current {
   font-style: italic
 }
+.ital span {
+  font-style: normal;
+}
 
 a:visited {
   color: blue;
